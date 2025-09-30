@@ -1,5 +1,5 @@
-<!DOCTYPE html> <!
-<html lang="es"> <!
+<!DOCTYPE html> <!-- Declara que el documento es HTML:5; ayuda al navegador como interpretarlo -->
+<html lang="es"> <!-- El contenido principal esta en idioma español; mejora accesibilidad y SEO -->
   <head> <!--Cabecera del documento: metadatos y recursos no visibles directamente -->
     <meta charset="UTF-8"> <!-- Conjunto de caracteres: UTF-8  se usa para que se vean tildes, ñ y simbolos -->
     <title>Calculadora basica en PHP</title> <!--Titulo que se muestra en la pestaña del navegador -->
@@ -95,4 +95,5 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") { // $_SERVER['REQUEST_METHOD'] => m�
 ?>
 </body> <!-- Cierra el contenido visible -->
 </html> <!-- Fin del documento HTML -->
+
 
